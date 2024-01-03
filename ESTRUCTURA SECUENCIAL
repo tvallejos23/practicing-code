@@ -1,0 +1,28 @@
+#EJERCICIO2
+
+
+numeros_enteros1 = int(input("ingresa un numero entero: "))
+
+numeros_enteros2 = int(input("ingresa otro numero entero: "))
+
+suma = numeros_enteros1 + numeros_enteros2
+
+diferencia = numeros_enteros1 - numeros_enteros2
+
+
+
+print(f"la suma de los dos numeros es {suma}")
+print(f"la diferencia entre los dos numeros es {diferencia}")
+
+
+
+#EJERCICIO3
+
+primer_parcial = int(input("ingrese la nota del primer parcial: "))
+segundo_parcial = int(input("ingrese la nota del segundo parcial: "))
+
+result_parciales = primer_parcial + segundo_parcial
+promedio = result_parciales / 2
+
+print(f"tu nota promedio final es: {promedio}")
+
