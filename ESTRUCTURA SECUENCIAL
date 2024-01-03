@@ -36,3 +36,19 @@ Escribir un programa que permita ingresar la edad de una persona en años y la c
 edad = int(input("ingresa tu edad: "))
 conversion = edad * 365
 print(f"tu edad en años de {edad} convertida a dias serian {conversion}")
+
+
+
+persona1 = int(input("ingrese su inversion de dinero: "))
+persona2 = int(input("ingrese su inversion de dinero: "))
+persona3 = int(input("ingrese su inversion de dinero: "))
+
+total_inv = persona1 + persona2 + persona3
+
+porcentaje1 = persona1 * 100 / total_inv
+porcentaje2 = persona2 * 100 / total_inv
+porcentaje3 = persona3 * 100 / total_inv
+
+print("persona 1 invirtio ", round(porcentaje1))
+print("persona 2 invirtio ", round(porcentaje2))
+print("persona 3 invirtio ", round(porcentaje3))
