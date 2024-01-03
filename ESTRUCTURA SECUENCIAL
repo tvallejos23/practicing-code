@@ -1,5 +1,6 @@
 #EJERCICIO2
 
+-desarrollar un programa que permita ingresar dos numeros enteros A y B a traves del teclado. Imprimir su suma y su diferencia.
 
 numeros_enteros1 = int(input("ingresa un numero entero: "))
 
