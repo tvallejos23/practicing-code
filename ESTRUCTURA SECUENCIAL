@@ -27,3 +27,12 @@ promedio = result_parciales / 2
 
 print(f"tu nota promedio final es: {promedio}")
 
+
+
+#EJERCICIO4
+
+Escribir un programa que permita ingresar la edad de una persona en años y la convierta a dias, imprimiendo el resultado.
+
+edad = int(input("ingresa tu edad: "))
+conversion = edad * 365
+print(f"tu edad en años de {edad} convertida a dias serian {conversion}")
