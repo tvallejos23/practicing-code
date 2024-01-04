@@ -31,6 +31,7 @@ print(f"tu nota promedio final es: {promedio}")
 
 #EJERCICIO4
 
+
 Escribir un programa que permita ingresar la edad de una persona en años y la convierta a dias, imprimiendo el resultado.
 
 edad = int(input("ingresa tu edad: "))
@@ -38,6 +39,7 @@ conversion = edad * 365
 print(f"tu edad en años de {edad} convertida a dias serian {conversion}")
 
 
+#EJERCICIO5
 
 persona1 = int(input("ingrese su inversion de dinero: "))
 persona2 = int(input("ingrese su inversion de dinero: "))
@@ -52,3 +54,47 @@ porcentaje3 = persona3 * 100 / total_inv
 print("persona 1 invirtio ", round(porcentaje1))
 print("persona 2 invirtio ", round(porcentaje2))
 print("persona 3 invirtio ", round(porcentaje3))
+
+
+
+#EJERCICIO11
+
+cantidad_dinero = int(input("ingrese la cantidd de dinero : "))
+
+billetes_1000 = cantidad_dinero // 1000
+resto_1000 = cantidad_dinero % 1000
+
+billetes_500 = cantidad_dinero // 500
+resto_500 = cantidad_dinero % 500
+
+billetes_100 = cantidad_dinero // 100
+resto_100 = cantidad_dinero % 100
+
+billetes_50 = cantidad_dinero // 50
+resto_50 = cantidad_dinero % 50
+
+billetes_10 = cantidad_dinero // 10
+resto_10 = cantidad_dinero % 10
+
+billetes_5 = cantidad_dinero // 5
+resto_5 = cantidad_dinero % 5
+
+billetes_1 = cantidad_dinero // 1
+
+print("billetes de $1000: ", billetes_1000)
+
+
+if resto_1000 != 0:
+    print("billetes de $1000", billetes_1000)
+    print("billetes de $500", billetes_500)
+    print("billetes de $100", billetes_100)
+    print("billetes de $50", billetes_50)
+    print("billetes de $10", billetes_10)
+    print("billetes de $5", billetes_5)
+    print("billetes de $1", billetes_1)
+
+
+
+
+
+
